@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculter</title>
+    <link rel= "stylesheet" type= "text/css" href= "calculater.css">
+    
+
+</head>
+<body>
+        <script  type="text/javascript" src="calculater.js"></script>
+        <table>
+                <thead>
+                    <tr>
+                        <th colspan="4">Sample Calculator</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                            <td>Input</td>
+                            <td>Operations</td>
+                            <td>Result </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2"><input type="text"  placeholder="Enter Number1" id="Number1" valve="0"/></td>
+                        <td><input type="button"  onclick="Calc(this.id)" id="Add" value="Add         "/></td>
+                        <td rowspan="2"><input type="number"  placeholder="Result" id="Result" valve="0"/></td>
+                    </tr>
+                    <tr>
+                        
+                        <td><input type="button"  onclick="Calc(this.id)" id="Sub" value="Subtract  "/></td>
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td rowspan="2"><input type="number"  placeholder="Enter Number2" id="Number2" valve="0"/></td>
+                        <td><input type="button"  onclick="Calc(this.id)" id="Mul" value="Multiply   "/></td>
+                        <td><input type="button"  onclick="Clr(this.id)" id="Clr" value="Clear All  "/></td>
+                        
+                    </tr>
+                    <tr>
+                            
+                            <td><input type="button"  onclick="Calc(this.id)" id="Div" value="Divide     "/></td>
+                            
+                    </tr>
+    
+                </tbody>
+        </table>
+        
+    
+
+    
+</body>
+</html>
