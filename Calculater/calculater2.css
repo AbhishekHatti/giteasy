@@ -1,0 +1,11 @@
+
+table, td, th
+{
+border: 1px solid black;
+width: 33%;
+text-align: center;
+background-color: DarkGray;
+border-collapse:collapse;
+}
+table { margin: auto; }
+input { text-align:right; }
